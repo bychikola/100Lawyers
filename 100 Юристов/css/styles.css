@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #140A32;
+}
+
+.container {
+  margin: 0px 150px;
+}
+
+/* Header */
+
+.header {
+  padding: 40px 0px 30px 0px;
+
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header__content img {
+  height: 38px;
+}
+
+.header__content img:hover {
+  cursor: pointer;
+}
+
+.header__input {
+  display: flex;
+  align-items: center;
+}
+
+.header__input input {
+  background-color: rgba(47, 43, 67, 0.04);
+  padding: 15px 20px;
+  width: 427px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.header__input button {
+  border: none;
+  outline: none;
+  background-color: rgba(47, 43, 67, 0.04);
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  padding: 9px 20px;
+}
+
+.header__input button:hover {
+  cursor: pointer;
+}
+
+.header__input button img {
+  height: 24px;
+}
+
+.header__question {
+  background-color: #33836E;
+  border-radius: 10px;
+padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header__question img {
+  height: 24px;
+  margin-right: 10px;
+}
+
+.header__question p {
+  color: #fff;
+}
+
+.header__contact a {
+  color: #140a32;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.header__contact p {
+  color: rgba(47, 43, 67, 0.5);
+  width: 400;
+  font-size: 14px;
+}
+
+.header__contact-button {
+  padding: 11px 20px;
+  display: flex;
+  align-items: center;
+  color: rgba(20, 10, 50, 1);
+  border: 1px solid rgba(47, 43, 67, 0.15);
+  border-radius: 10px;
+}
+
+.header__contact-button img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  margin-right: 30px;
+  color: rgba(20, 10, 50, 1);
+}
+
+.header__login {
+  display: flex;
+  align-items: center;
+}
+
+.header__login a {
+  color: rgba(20, 10, 50, 1);
+}
+
+.header__login p {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.header__login img {
+  width: 24px;
+  margin-right: 10px;
+}
